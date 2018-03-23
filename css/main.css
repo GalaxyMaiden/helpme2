@@ -1,0 +1,373 @@
+/*
+colors used:
+#f7efe2; - ice/greyish;
+#00cffa; - cyan/light blue;
+#ff0038; - magenta/redish;
+#ffce38; - yellowish;
+#020509; - black;
+*/
+
+/*whole page 01*/
+
+@font-face {
+    font-family: simplifica;
+    src: url(../font/simplifica.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: simplifica;
+	background-color: #f7efe2;
+}
+
+/*end 01*/
+
+/*nav bar 02*/
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.danger{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+
+
+.danger:hover {
+	background-color: #020509;
+}
+
+#buy2 {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+#buy2:hover {
+	background-color: #020509;
+}
+
+#save {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+#save:hover {
+	background-color: #020509;
+}
+
+.save2 {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+.save2:hover {
+	background-color: #020509;
+}
+
+#change1 {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+#change1:hover {
+	background-color: #020509;
+}
+
+
+header {
+	background-color: #ff0038;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #00cffa 4px solid;
+}
+
+header a {
+	color: #f7efe2;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 2px;
+	font-size: 55px;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header #logo, header .current a {
+	color: #020509;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #020509;
+}
+
+/*end 02*/
+
+/*movie boxes 03*/
+
+#boxes {
+	margin-top: 34px;
+}
+
+#boxes .moviebox {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .moviebox img {
+	width: 200px;
+	border: #00cffa 1px solid;
+}
+
+h3, p {
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+
+/*end 03*/
+
+/*footer 04*/
+
+footer {
+	padding: 3px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #ffce38;
+	text-align: center;
+	clear: left;
+}
+
+/*end 04*/
+
+/*movie pages 05*/
+
+#boxes .trailer embed {
+	float: left;
+	width: 457px;
+	height: 315px;
+	padding-top: 10px;
+	margin-left: 5px;
+	}
+
+.boje {
+	color: #ff0038;
+	font-weight: bold;
+}
+
+.buttons {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+.buttons:hover {
+	background-color: #020509;
+}
+
+#delete {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+#delete:hover {
+	background-color: #020509;
+}
+
+#change {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00cffa;
+	padding: 20px;
+	margin:5px;
+	font-size: 18px;
+}
+
+#change:hover {
+	background-color: #020509;
+}
+
+/*end 05*/
+
+/*new projection 06*/
+
+.container form {
+	margin-left: 2px;
+	margin-bottom: 40px;
+}
+
+#create {
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #00cffa;
+	margin-left: 67px;
+	padding: 15px;
+}
+
+#create:hover {
+	background-color: #020509;
+}
+
+.container p {
+	font-weight: bold;
+	color: #ff0038;
+}
+
+/*end 06*/
+
+/*buy a ticket page 07*/
+
+.buyticket {
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	background-color: #00cffa;
+	width: 7%;
+	padding: 10px;
+	color: #ffffff;
+	margin-top: 25px;
+}
+
+.buyticket:hover {
+	background-color: #020509;
+}
+
+#login {
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	background-color: #00cffa;
+	width: 7%;
+	padding: 10px;
+	color: #ffffff;
+	margin-top: 25px;
+}
+
+#login:hover {
+	background-color: #020509;
+}
+
+#adduser {
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	background-color: #00cffa;
+	width: 7%;
+	padding: 10px;
+	color: #ffffff;
+	margin-top: 77px;
+}
+
+#adduser:hover {
+	background-color: #020509;
+}
+
+/*end 07*/
+
+@media (min-width: 1400px){
+	footer  {
+	margin-top: 778px;
+	}
+
+	header #branding h1 {
+	font-size: 65px;
+	}
+
+	header a {
+	font-size: 25px;
+	}
+
+	#boxes .moviebox img {
+	width: 320px;
+	}
+
+	h3, p {
+	font-size: 26px;
+	}
+
+	#boxes .trailer embed {
+	width: 600px;
+	height: 405px;
+	}
+}
+
+@media (max-width: 768px){
+	header nav {
+	float: none;
+	}
+
+	header #branding {
+	float: none;
+	}
+
+	header li {
+	float: none;
+	display: block;
+	}
+
+	#boxes .moviebox {
+	float: none;
+	}
+
+	#boxes .moviebox h3 {
+		text-align: center;
+	}
+}
